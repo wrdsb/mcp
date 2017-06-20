@@ -2,7 +2,12 @@
 // foreach schools as the_school:
 
 the_school.should.have.a(staff_group);
+  // assign group to the_staff_group
+  the_staff_group.should.have.staff_group_settings;
+
 the_school.should.have.an(admin_group);
+  // assign group to the_group
+  the_admin_group.should.have.admin_group_settings;
 
 the_school.should.have.a(public_calendar);
   // assign calendar to the_public_calendar
