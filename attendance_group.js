@@ -1,0 +1,1 @@
+// define attributes and settings of an "attendance_group"
