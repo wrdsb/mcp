@@ -36,7 +36,7 @@ the_school.should.have.property('alpha_code').which.is.not.empty;
 the_school.should.have.property('school_type_code').which.is.not.empty;
 the_school.should.have.property('mident').which.is.not.empty;
 the_school.should.have.property('principal').which.is.not.empty;
-the_school.should.have.property('vice_principals');
+the_school.should.have.property('vice_principals').which.is.an(Array);
 
 the_school.should.have.property('staff_group').which.is.not.empty;
   // assign group to the_staff_group
