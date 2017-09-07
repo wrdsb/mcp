@@ -28,7 +28,7 @@ module.exports = function (context, message) {
             var message = {
                 body: JSON.stringify(member)
             }
-            outputSbQueue = message;
+            //outputSbQueue = message;
         });
     }
     context.done();

@@ -1,5 +1,13 @@
 {
   "bindings": [
+    {
+      "type": "serviceBus",
+      "connection": "wrdsb-igor_RootManageSharedAccessKey_SERVICEBUS",
+      "name": "igorQueue",
+      "queueName": "members_to_create",
+      "accessRights": "Manage",
+      "direction": "out"
+    }
   ],
   "disabled": false
 }
