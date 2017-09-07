@@ -1,8 +1,6 @@
 module.exports = function (context, message) {
     context.log(message);
 
-    var igor_queue = 'members_to_create';
-
     var email_address = '';
     var job_code = '';
 
@@ -30,12 +28,7 @@ module.exports = function (context, message) {
             var message = {
                 body: JSON.stringify(member)
             }
-
-            serviceBusService.sendTopicMessage(igor_queue, message, function(error) {
-                if (error) {
-                    context.error(error);
-                }
-            });
+            outputSbQueue = message;
         });
     }
     context.done();
