@@ -1,1 +1,2 @@
-# MCP - Master Compliance Program
+# Archived.
+Merged into [COSMOS](https://github.com/wrdsb/cosmos), June 2, 2020.
